@@ -18,7 +18,6 @@ float getMinMarks(float mid1, float cutoff) {
 			res = (mid1 * 0.3) + (mid2 * 0.7);
 		}
 		if(res >= cutoff) {
-			cout << "resultant : " << res << endl;
 			break;
 		}
 		mid2 += 0.1;
