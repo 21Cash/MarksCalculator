@@ -3,10 +3,6 @@ using namespace std;
 
 
 
-float percentage(float a, float b) {
-	return (a/b) * 100.0;
-}
-
 float getMinMarks(float mid1, float cutoff) {
 	float mid2 = 0;
 	float res = -1;
@@ -20,7 +16,7 @@ float getMinMarks(float mid1, float cutoff) {
 		if(res >= cutoff) {
 			break;
 		}
-		mid2 += 0.1;
+		mid2 += 0.5;
 	}
 	return mid2;
 }
